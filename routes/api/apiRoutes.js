@@ -14,7 +14,7 @@ router.post('/add', (req, res) => {
     
         console.log("Num1: " + num1);
         console.log("Num2: " + num2);
-        console.log("Added: " + added);
+        console.log("Transposed " + num1 + " by " + num2 + " matrix: " + added);
     
         res.json(added);
     } catch (e) {
@@ -33,7 +33,7 @@ router.post('/subtract', (req, res) => {
 
         console.log("Num1: " + num1);
         console.log("Num2: " + num2);
-        console.log("Subtracted: " + subtracted);
+        console.log("Inverted " + num1 + "by " + num2 + "matrix: " + subtracted);
 
         res.json(subtracted);
     } catch (e) {
